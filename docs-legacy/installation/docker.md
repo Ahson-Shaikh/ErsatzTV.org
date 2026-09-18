@@ -68,6 +68,15 @@ docker run -d \
   --mount type=tmpfs,destination=/transcode \
 ```
 
+## Easypanel
+
+If you don't want to manage the container yourself, [Easypanel](https://easypanel.io) is a self-hosted deployment platform with a one-click ErsatzTV template:
+
+[![Deploy on Easypanel][easypanel-btn]][easypanel-deploy]
+
+[easypanel-btn]: https://easypanel.io/img/deploy-on-easypanel-40.svg
+[easypanel-deploy]: https://easypanel.io/templates/ersatztv
+
 ## Docker Compose
 
 1\. Ensure you have docker compose installed: https://docs.docker.com/compose/install
